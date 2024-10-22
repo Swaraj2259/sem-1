@@ -1,4 +1,4 @@
-# A function to find factorial of numbers from 1 to 4
+# A functions to find factorial of numbers from 1 to 4
 '''
 def fact(num):
     result=1
