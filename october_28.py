@@ -30,7 +30,20 @@ def func_kwargs(**data):
 
 func_kwargs(first_name="swaraj",age=20,college="itm")
 '''
+#calling a funtion within a funtion 
 
+'''
+def capitalize(text):
+    return text.lower()
 
+def greet(name):
+    return f"hello,{name}"
 
+def greet_and_capitalize(name):
+    n=capitalize(name)
+    return greet(n)
+#test the funtion
+result=greet_and_capitalize("Alice")
+print("final result",result)
 
+'''
