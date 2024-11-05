@@ -27,7 +27,7 @@
 # print(s2.name,"is the of the student and he/her marks =",s2.marks)
 # print(student.college_name)
 
-print("hh")
+print("h")
 
 
 
