@@ -10,6 +10,7 @@ void findMaximum() {
     cout << "Maximum: " << maxNum << endl;
 }
 
+
 // Function to check whether a number is negative or positive
 void checkSign() {
     int num;
